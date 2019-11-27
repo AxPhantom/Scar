@@ -13,9 +13,9 @@ ART = os.path.join(PATH, 'resources', 'art')
 #########################################################
 #        User Edit Variables                            #
 #########################################################
-ADDONTITLE = '[COLOR limegreen][B]Open[/B][/COLOR]Wizard'
-BUILDERNAME = 'OpenWizard'
-EXCLUDES = [ADDON_ID, 'repository.openwizard']
+ADDONTITLE = '[COLOR orange][B]Scar[/B][/COLOR]Wizard'
+BUILDERNAME = 'Macaulay'
+EXCLUDES = [ADDON_ID, 'repository.Scarwizard']
 # Text File with build info in it.
 BUILDFILE = 'http://'
 # How often you would like it to check for build updates in days
@@ -60,7 +60,7 @@ SPACER = '='
 
 # You can edit these however you want, just make sure that you have a %s in each of the
 # THEME's so it grabs the text from the menu item
-COLOR1 = 'limegreen'
+COLOR1 = 'orange'
 COLOR2 = 'white'
 # Primary menu items   / {0} is the menu item and is required
 THEME1 = '[COLOR '+COLOR1+'][I]([COLOR '+COLOR1+'][B]Open[/B][/COLOR][COLOR ' + COLOR2 + ']Wizard[COLOR ' + COLOR1 + '])[/I][/COLOR] [COLOR '+COLOR2+']{0}[/COLOR]'
