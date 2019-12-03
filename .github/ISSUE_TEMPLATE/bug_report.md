@@ -8,7 +8,7 @@ assignees: ''
 ---
 
 **Describe the bug**
-A clear and concise description of what the bug is.
+I have an issue/bug regarding your open wizard. I have used and adapted the wizard to your guide as best as possible. After loading the build onto Kodi 18.5 with the wizard I get a Box show that just says White with the options Retry Install or No Thanks. When clicking rety install it flashes a loading screen before stopping. Upon going back to the wizard it has removed my current build information allowing me not to perform updates. 
 
 **To Reproduce**
 Steps to reproduce the behavior:
@@ -18,13 +18,13 @@ Steps to reproduce the behavior:
 4. See error
 
 **Expected behavior**
-A clear and concise description of what you expected to happen.
+I expected it to load and then keep the build information.
 
 **Screenshots**
 If applicable, add screenshots to help explain your problem.
 
 **Platform**
-Operating system and version of Kodi the bug is occurring on.
+Amazon Fire Stick 4k 2019 Model with Kodi 18.5
 
 **Additional context**
-Add any other context about the problem here.
+The link to my wizard files: https://github.com/AxPhantom/Scar
