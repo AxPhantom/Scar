@@ -15,9 +15,9 @@ ART = os.path.join(PATH, 'resources', 'art')
 #########################################################
 ADDONTITLE = '[COLOR orange][B]Scar[/B][/COLOR]Wizard'
 BUILDERNAME = 'Macaulay'
-EXCLUDES = [ADDON_ID, 'repository.Scarwizard']
+EXCLUDES = [ADDON_ID, 'repository.scarwizard']
 # Text File with build info in it.
-BUILDFILE = 'http://'
+BUILDFILE = 'https://www.dropbox.com/s/oax25xfik7ro6bf/builds.txt?dl=1'
 # How often you would like it to check for build updates in days
 # 0 being every startup of kodi
 UPDATECHECK = 0
@@ -63,7 +63,7 @@ SPACER = '='
 COLOR1 = 'orange'
 COLOR2 = 'white'
 # Primary menu items   / {0} is the menu item and is required
-THEME1 = '[COLOR '+COLOR1+'][I]([COLOR '+COLOR1+'][B]Open[/B][/COLOR][COLOR ' + COLOR2 + ']Wizard[COLOR ' + COLOR1 + '])[/I][/COLOR] [COLOR '+COLOR2+']{0}[/COLOR]'
+THEME1 = '[COLOR '+COLOR1+'][I]([COLOR '+COLOR1+'][B]Scar[/B][/COLOR][COLOR ' + COLOR2 + ']Wizard[COLOR ' + COLOR1 + '])[/I][/COLOR] [COLOR '+COLOR2+']{0}[/COLOR]'
 # Build Names          / {0} is the menu item and is required
 THEME2 = '[COLOR '+COLOR2+']{0}[/COLOR]'
 # Alternate items      / {0} is the menu item and is required
@@ -75,9 +75,9 @@ THEME5 = '[COLOR '+COLOR1+']Current Theme:[/COLOR] [COLOR '+COLOR2+']{0}[/COLOR]
 
 # Message for Contact Page
 # Enable 'Contact' menu item 'Yes' hide or 'No' dont hide
-HIDECONTACT = 'No'
+HIDECONTACT = 'Yes'
 # You can add \n to do line breaks
-CONTACT = 'Thank you for choosing OpenWizard.\n\nContact us on Github at http://www.github.com/drinfernoo/plugin.program.openwizard/'
+CONTACT = 'Thank you for using Scar Wizard and Builds'
 # Images used for the contact window.  http:// for default icon and fanart
 CONTACTICON = os.path.join(ART, 'qricon.png')
 CONTACTFANART = 'http://'
@@ -98,11 +98,11 @@ WIZARDFILE = BUILDFILE
 # Enable Auto Install 'Yes' or 'No'
 AUTOINSTALL = 'Yes'
 # Addon ID for the repository
-REPOID = 'repository.openwizard'
+REPOID = 'repository.scar'
 # Url to Addons.xml file in your repo folder(this is so we can get the latest version)
-REPOADDONXML = 'https://raw.githubusercontent.com/drinfernoo/repository.openwizard/master/zips/addons.xml'
+REPOADDONXML = 'https://raw.githubusercontent.com/AxPhantom/ScarRepo/master/zips/addons.xml'
 # Url to folder zip is located in
-REPOZIPURL = 'https://raw.githubusercontent.com/drinfernoo/repository.openwizard/master/zips/repository.openwizard/'
+REPOZIPURL = 'https://raw.githubusercontent.com/AxPhantom/ScarRepo/master/zips/'
 #########################################################
 
 #########################################################
@@ -116,7 +116,7 @@ NOTIFICATION = 'http://'
 HEADERTYPE = 'Text'
 # Font size of header
 FONTHEADER = 'Font14'
-HEADERMESSAGE = '[COLOR limegreen][B]Open[/B][/COLOR]Wizard'
+HEADERMESSAGE = '[COLOR limegreen][B]Scar[/B][/COLOR]Wizard'
 # url to image if using Image 424x180
 HEADERIMAGE = 'http://'
 # Font for Notification Window
